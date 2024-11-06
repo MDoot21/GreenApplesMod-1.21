@@ -3,15 +3,15 @@
 	"id": "greenapples",
 	"version": "${version}",
 	"name": "Green Apples",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This Mod adds a Green Apple item to the game!",
 	"authors": [
-		"Me!"
+		"MDoot21"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/MDoot21"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/greenapples/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -26,7 +26,7 @@
 		"greenapples.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.9",
+		"fabricloader": ">=0.16.6",
 		"minecraft": "~1.21",
 		"java": ">=21",
 		"fabric-api": "*"
