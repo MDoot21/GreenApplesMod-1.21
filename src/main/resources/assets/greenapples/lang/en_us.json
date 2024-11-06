@@ -1,0 +1,6 @@
+{
+  "item.greenapples.green_apple": "Green Apple",
+  "tooltip.greenapples.green_apple.tooltip": "A §2green§r variant of the Vanilla Apple.",
+  "tooltip.greenapples.green_apple.tooltip.1": "Hold §6SHIFT§r for more info",
+  "tooltip.greenapples.green_apple.tooltip.shift_down": "15% chance of giving §eSpeed§r effect."
+}
