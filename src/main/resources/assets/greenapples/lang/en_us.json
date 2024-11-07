@@ -7,5 +7,7 @@
   "item.greenapples.candied_green_apple": "Candied Green Apple",
   "item.greenapples.caramel_cube": "Cube Of Caramel",
 
-  "itemgroup.greenapples.green_apple_items": "Green Apple Items"
+  "itemgroup.greenapples.green_apple_items": "Green Apple Items",
+
+  "item.greenapples.green_apple_slices": "Green Apple Slices"
 }

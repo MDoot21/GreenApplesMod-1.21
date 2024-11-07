@@ -17,6 +17,7 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.GREEN_APPLE);
                         entries.add(ModItems.CANDIED_GREEN_APPLE);
+                        entries.add(ModItems.GREEN_APPLE_SLICES);
                         entries.add(ModItems.CARAMEL_CUBE);
                     }).build());
 

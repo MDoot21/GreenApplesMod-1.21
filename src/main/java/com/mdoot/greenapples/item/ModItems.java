@@ -17,8 +17,11 @@ import net.minecraft.util.Identifier;
 import java.util.List;
 
 public class ModItems {
+    public static final Item GREEN_APPLE_SLICES = registerItem("green_apple_slices", new Item(new Item.Settings()
+            .food(ModFoodComponents.GREEN_APPLE_SLICES)));
+
     public static final Item CANDIED_GREEN_APPLE = registerItem("candied_green_apple", new Item(new Item.Settings()
-            .food(ModFoodComponents.CANDIED_GREEN_APPLE)));
+            .food(ModFoodComponents.CANDIED_GREEN_APPLE).maxCount(16)));
 
     public static final Item CARAMEL_CUBE = registerItem("caramel_cube", new Item(new Item.Settings()
             .food(ModFoodComponents.CARAMEL_CUBE)));
@@ -49,6 +52,7 @@ public class ModItems {
             entries.add(GREEN_APPLE);
             entries.add(CANDIED_GREEN_APPLE);
             entries.add(CARAMEL_CUBE);
+            entries.add(GREEN_APPLE_SLICES);
         });
     }
 }
