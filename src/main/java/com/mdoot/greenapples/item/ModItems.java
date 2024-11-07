@@ -17,7 +17,14 @@ import net.minecraft.util.Identifier;
 import java.util.List;
 
 public class ModItems {
-    public static final Item GREEN_APPLE = registerItem("green_apple", new Item(new Item.Settings().food(ModFoodComponents.GREEN_APPLE)) {
+    public static final Item CANDIED_GREEN_APPLE = registerItem("candied_green_apple", new Item(new Item.Settings()
+            .food(ModFoodComponents.CANDIED_GREEN_APPLE)));
+
+    public static final Item CARAMEL_CUBE = registerItem("caramel_cube", new Item(new Item.Settings()
+            .food(ModFoodComponents.CARAMEL_CUBE)));
+
+    public static final Item GREEN_APPLE = registerItem("green_apple", new Item(new Item.Settings()
+            .food(ModFoodComponents.GREEN_APPLE)) {
         @Override
         public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
             if(Screen.hasShiftDown()) {
@@ -40,6 +47,8 @@ public class ModItems {
 
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.FOOD_AND_DRINK).register(entries -> {
             entries.add(GREEN_APPLE);
+            entries.add(CANDIED_GREEN_APPLE);
+            entries.add(CARAMEL_CUBE);
         });
     }
 }

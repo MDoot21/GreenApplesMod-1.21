@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "A": {
+      "item": "minecraft:stick"
+    },
+
+    "B":{
+      "item": "greenapples:caramel_cube"
+    },
+
+    "C": {
+      "item": "greenapples:green_apple"
+    }
+  },
+  "pattern": [
+    "BA",
+    "CB"
+  ],
+  "result": {
+    "count": 1,
+    "id": "greenapples:candied_green_apple"
+
+  }
+}

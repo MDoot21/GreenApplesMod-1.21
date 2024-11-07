@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "cookingtime": 200,
+  "experience": 0.2,
+  "group": "caramel_cube",
+  "ingredient": {
+    "item": "minecraft:sugar"
+  },
+  "result": {
+    "id": "greenapples:caramel_cube"
+  }
+}
