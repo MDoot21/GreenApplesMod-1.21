@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "#": {
+      "item": "minecraft:lime_dye"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    }
+  },
+
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+
+  "result": {
+    "count": 1,
+    "id": "greenapples:green_apple"
+
+  }
+}
