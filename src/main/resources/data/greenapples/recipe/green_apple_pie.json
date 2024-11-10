@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "food",
+  "key": {
+    "A": {
+      "item": "minecraft:wheat"
+    },
+
+    "B":{
+      "item": "minecraft:egg"
+    },
+
+    "C": {
+      "item": "minecraft:sugar"
+    },
+
+    "D": {
+      "item": "greenapples:green_apple_slices"
+    }
+  },
+  "pattern": [
+    "ADA",
+    "CBC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "greenapples:green_apple_pie"
+
+  }
+}
